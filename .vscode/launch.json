@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}/type.js",
+            "program": "${workspaceFolder}/Destructuring.js",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]

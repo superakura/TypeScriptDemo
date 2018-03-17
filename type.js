@@ -20,12 +20,12 @@ console.log(xiaoming);
 //函数的参数可以设定默认值，默认值要放在最后
 //在参数后加？，则参数为可选参数，不能放到必选参数前面
 //可选参数，要注意处理没有传递参数的特殊情况，比如b.length
+//可选参数输出为undefined 
 function testType(a, b, c) {
     if (c === void 0) { c = "wuying"; }
     console.log("this is " + a + " next is " + b + " third is " + c);
 }
-//调用函数时，有默认值的参数可以省略
-testType("gaoyuan", "gaohongbo"); //调用带默认参数
+testType("gaoyuan", "gaohongbo"); //调用默认参数，有默认值的参数可以省略
 testType("gy"); //调用可选参数、默认参数
 testType("gaoyuan", "gaohongbo", "gaobaosheng");
 //# sourceMappingURL=type.js.map
