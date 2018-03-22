@@ -8,7 +8,7 @@ for (var key in arrayForOf) {
     console.log("key is " + key);
     console.log("value is " + arrayForOf[key]);
 }
-//for of循环，中间能跳出循环
+//for of循环，中间能用Break跳出循环
 for (var _i = 0, arrayForOf_1 = arrayForOf; _i < arrayForOf_1.length; _i++) {
     var n = arrayForOf_1[_i];
     if (n > 4) {

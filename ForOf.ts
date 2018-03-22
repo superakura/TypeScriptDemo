@@ -11,10 +11,12 @@ for (var key in arrayForOf) {
     console.log("value is "+arrayForOf[key]);
 }
 
-//for of循环，中间能跳出循环
+//for of循环，中间能用Break跳出循环
 for(var n of arrayForOf)
 {
-    if(n>4){break};
+    if(n>4){
+        break;
+    };
     console.log(n);
 }
 
